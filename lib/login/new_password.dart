@@ -33,16 +33,16 @@ class _new_passwordState extends State<new_password> {
           Padding(padding: EdgeInsets.all(18),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('John Wayn, please enter new \npassword below', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),),
+              child: Text('John Wayn, please enter new \npassword below', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, fontFamily: 'NATS 400'),),),
           ),
           SizedBox(height: 5,),
-          Padding(padding: EdgeInsets.only(left: 18),
+          Padding(padding: EdgeInsets.only(left: 18, bottom: 4),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('New Password *', style: TextStyle(color: Colors.black, fontSize: 14),),),
+              child: Text('New Password*', style: TextStyle(color: Colors.black, fontSize: 14, fontFamily: 'NATS 400'),),),
           ),
           Container(
-            padding: EdgeInsets.only(left: 18),
+            padding: EdgeInsets.only(left: 18, ),
             width: wd*0.95,
             height: 50,
             decoration: BoxDecoration(
@@ -54,10 +54,10 @@ class _new_passwordState extends State<new_password> {
                 child: Text('')),
           ),
           SizedBox(height: 10,),
-          Padding(padding: EdgeInsets.only(left: 18),
+          Padding(padding: EdgeInsets.only(left: 18, bottom: 4),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('Confirm Password *', style: TextStyle(color: Colors.black, fontSize: 14),),),
+              child: Text('Confirm Password*', style: TextStyle(color: Colors.black, fontSize: 14, fontFamily: 'NATS 400'),),),
           ),
           Container(
             padding: EdgeInsets.only(left: 18),
@@ -73,7 +73,7 @@ class _new_passwordState extends State<new_password> {
           ),
           SizedBox(height: 40,),
           Container(
-            padding: EdgeInsets.only(left: 18),
+            // padding: EdgeInsets.only(left: 18),
             width: wd*0.5,
             height: 50,
             decoration: BoxDecoration(
@@ -84,7 +84,7 @@ class _new_passwordState extends State<new_password> {
                 alignment: Alignment.center,
                 child: TextButton(
                   onPressed:() {},
-                  child: Text('Save', style: TextStyle(color: Colors.white),),
+                  child: Text('Save', style: TextStyle(color: Colors.white, fontFamily: 'NATS 400'),),
                 )
             ),
           ),

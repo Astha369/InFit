@@ -26,18 +26,18 @@ class _forgotPasswordState extends State<forgotPassword> {
           Padding(padding: EdgeInsets.all(18),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('Forgot your Password?', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),),
+              child: Text('Forgot your Password?', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, fontFamily: 'NATS 400'),),),
           ),
           Padding(padding: EdgeInsets.only(left: 18),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('Please enter your email.', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey, fontSize: 14),),),
+              child: Text('Please enter your email.', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey, fontSize: 14, fontFamily: 'Nats'),),),
           ),
           SizedBox(height: 15,),
           Padding(padding: EdgeInsets.only(left: 18),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('Email address *', style: TextStyle(color: Colors.black, fontSize: 14),),),
+              child: Text('Email address *', style: TextStyle(color: Colors.black, fontSize: 14, fontFamily: 'Nats'),),),
           ),
           SizedBox(height: 20,),
           Container(
@@ -65,7 +65,7 @@ class _forgotPasswordState extends State<forgotPassword> {
                 alignment: Alignment.center,
                 child: TextButton(
                   onPressed:() {},
-                  child: Text('Reset Password', style: TextStyle(color: Colors.white),),
+                  child: Text('Reset Password', style: TextStyle(color: Colors.white, fontFamily: 'Nats'),),
                 )
             ),
           ),
