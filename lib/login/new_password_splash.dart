@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class forgot_splash extends StatefulWidget {
@@ -29,19 +30,19 @@ class _forgot_splashState extends State<forgot_splash> {
           ),
          SizedBox(height: 20,),
           Center(child: Text('New Password',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'NATS 400'),)),
+            style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, fontFamily: 'NATS'),)),
           Center(child: Text('confirm successful',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'NATS 400'),)),
+            style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, fontFamily: 'NATS', height: 0.1),)),
           SizedBox(height: 10,),
           Center(child: Text(
             'You have successfully confirm your new',
-            style: TextStyle(fontSize: 14, fontFamily: 'NATS 400'),)),
+            style: TextStyle(fontSize: 19, fontFamily: 'NATS'),)),
           Center(child: Text(
             'password. Please use new password',
-            style: TextStyle(fontSize: 14, fontFamily: 'NATS 400'),)),
+            style: TextStyle(fontSize: 19, fontFamily: 'NATS', height: 0.3),)),
           Center(child: Text(
             'when logging in.',
-            style: TextStyle(fontSize: 14, fontFamily: 'NATS 400'),)),
+            style: TextStyle(fontSize: 19, fontFamily: 'NATS', height: 1.3),)),
 
           SizedBox(height: 100,),
           Container(
@@ -50,12 +51,13 @@ class _forgot_splashState extends State<forgot_splash> {
             decoration: BoxDecoration(
               color: Color.fromRGBO(120, 98, 231, 1),
               borderRadius: BorderRadius.all(Radius.circular(10)),
+              // boxShadow: BoxShadow(color: Color.fromRGBO(0, 0, 0, 0.25)),
             ),
             child: Align(
                 alignment: Alignment.center,
                 child: TextButton(
                   onPressed:() {},
-                  child: Text('Okay', style: TextStyle(color: Colors.white, fontFamily: 'NATS 400'),),
+                  child: Text('Okay', style: TextStyle(color: Colors.white, fontSize: 26, fontFamily: 'NATS', height: 1.3),),
                 )
             ),
           ),

@@ -33,13 +33,13 @@ class _new_passwordState extends State<new_password> {
           Padding(padding: EdgeInsets.all(18),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('John Wayn, please enter new \npassword below', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, fontFamily: 'NATS 400'),),),
+              child: Text('John Wayn, please enter new \npassword below', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 28, fontFamily: 'NATS', height: 1),),),
           ),
           SizedBox(height: 5,),
           Padding(padding: EdgeInsets.only(left: 18, bottom: 4),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('New Password*', style: TextStyle(color: Colors.black, fontSize: 14, fontFamily: 'NATS 400'),),),
+              child: Text('New Password*', style: TextStyle(color: Colors.black, fontSize: 19, fontFamily: 'NATS', height: 1.0),),),
           ),
           Container(
             padding: EdgeInsets.only(left: 18, ),
@@ -57,7 +57,7 @@ class _new_passwordState extends State<new_password> {
           Padding(padding: EdgeInsets.only(left: 18, bottom: 4),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Text('Confirm Password*', style: TextStyle(color: Colors.black, fontSize: 14, fontFamily: 'NATS 400'),),),
+              child: Text('Confirm Password*', style: TextStyle(color: Colors.black, fontSize: 19, fontFamily: 'NATS', height: 1.0),),),
           ),
           Container(
             padding: EdgeInsets.only(left: 18),
@@ -71,7 +71,7 @@ class _new_passwordState extends State<new_password> {
                 alignment: Alignment.centerLeft,
                 child: Text('')),
           ),
-          SizedBox(height: 40,),
+          SizedBox(height: 50,),
           Container(
             // padding: EdgeInsets.only(left: 18),
             width: wd*0.5,
@@ -84,7 +84,8 @@ class _new_passwordState extends State<new_password> {
                 alignment: Alignment.center,
                 child: TextButton(
                   onPressed:() {},
-                  child: Text('Save', style: TextStyle(color: Colors.white, fontFamily: 'NATS 400'),),
+                  child: Text('Save', style: TextStyle(color: Colors.white, fontFamily: 'NATS 400', fontSize: 24
+                  ),),
                 )
             ),
           ),

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: forgot_splash(),
+      home: new_password(),
     );
   }
 }
